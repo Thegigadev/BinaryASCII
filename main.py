@@ -1,7 +1,7 @@
 import argparse
 from textwrap import wrap
 
-def translate(raw_binary) -> str:
+def translate(raw_binary) -> List:
     """Translate a binary sequence
     to 8 bit ASCII chars."""
     binary = wrap(raw_binary, 8) # Returns binary to a split list of 8 bits per entry.
